@@ -39,4 +39,7 @@ build/
 
 # Arquivos de backup
 *.bak
-*.backup 
+*.backup
+
+# Pasta com arquivos grandes (PSDs, etc.)
+Arquivos/ 
