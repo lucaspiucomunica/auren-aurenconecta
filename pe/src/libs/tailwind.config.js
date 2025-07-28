@@ -1,14 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "../../index.html",
-    "../js/*.js",
-  ],
+  content: ['../../index.html', '../js/*.js'],
   theme: {
     extend: {
       colors: {
-        'azul': '#170054',
-        'rosa': '#E52397',
+        azul: '#170054',
+        rosa: '#E52397',
         'cinza-50': '#F6F6F6',
         'cinza-100': '#E7E7E7',
         'cinza-200': '#D1D1D1',
@@ -18,7 +15,7 @@ module.exports = {
       },
 
       fontFamily: {
-        'sans': ['Verdana', 'Arial', 'sans-serif'],
+        sans: ['Verdana', 'Arial', 'sans-serif'],
       },
 
       container: {
@@ -29,14 +26,13 @@ module.exports = {
           lg: '100%',
           xl: '100%',
           '2xl': '1328px',
-        }
+        },
       },
 
       screens: {
-        'mlg': '880px',
-      }
+        mlg: '880px',
+      },
     },
   },
   plugins: [],
-}
-
+};

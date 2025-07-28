@@ -1,4 +1,4 @@
-@import url('../libs/node_modules/aos/dist/aos.css');
+@import url("../libs/node_modules/aos/dist/aos.css");
 
 @tailwind base;
 @tailwind components;
@@ -6,13 +6,11 @@
 
 @layer base {
   html {
-    @apply
-    antialiased scroll-smooth overflow-x-hidden
+    @apply antialiased scroll-smooth overflow-x-hidden;
   }
 
   body {
-    @apply
-    text-cinza-900 leading-normal overflow-x-hidden
+    @apply text-cinza-900 leading-normal overflow-x-hidden;
   }
 
   h1,
@@ -21,18 +19,15 @@
   h4,
   h5,
   h6 {
-    @apply
-    font-bold;
+    @apply font-bold;
   }
 
   strong {
-    @apply
-    font-bold;
+    @apply font-bold;
   }
 
   .container {
-    @apply
-    sm:px-6 px-4
+    @apply sm:px-6 px-4;
   }
 }
 
@@ -40,35 +35,35 @@
   /* Formulário */
 
   .content-slot-mc .smartcapture-content-wrapper {
-    @apply
-    !font-sans
+    @apply !font-sans;
   }
-  
-  .content-slot-mc .smartcapture-content-wrapper .smartcapture-controls .sc-formfield-label label {
-    @apply
-    !font-sans
+
+  .content-slot-mc
+    .smartcapture-content-wrapper
+    .smartcapture-controls
+    .sc-formfield-label
+    label {
+    @apply !font-sans
     !text-azul
-    !text-base
+    !text-base;
   }
 
   .content-slot-mc .smartcapture-content-wrapper .smartcapture-controls {
-    @apply
-    !flex 
+    @apply !flex 
     !flex-col 
     !items-start 
     !justify-center 
-    !pb-3
+    !pb-3;
   }
 
   .content-slot-mc .smartcapture-content-wrapper {
-    @apply
-    !w-full 
-    !mx-auto
+    @apply !w-full 
+    !mx-auto;
   }
 
-  .content-slot-mc .smartcapture-content-wrapper.fuelux input, .content-slot-mc .smartcapture-content-wrapper.fuelux select {
-    @apply
-    !w-full 
+  .content-slot-mc .smartcapture-content-wrapper.fuelux input,
+  .content-slot-mc .smartcapture-content-wrapper.fuelux select {
+    @apply !w-full 
     !py-3 
     !px-6
     !rounded-full 
@@ -76,32 +71,28 @@
     !h-auto
     !bg-cinza-50
     !h-auto
-    !mt-2
+    !mt-2;
   }
 
   .content-slot-mc .smartcapture-content-wrapper .sc-formfield-input {
-    @apply
-    !w-full
+    @apply !w-full;
   }
 
   .content-slot-mc .smartcapture-content-wrapper select {
-    @apply
-    !w-full
+    @apply !w-full;
   }
 
   .content-slot-mc .smartcapture-content-wrapper button.sc-button {
-    @apply
-    !bg-rosa
+    @apply !bg-rosa
     !rounded-full 
     !py-4 !px-6
     !font-bold
     !w-full
-    !text-white
+    !text-white;
   }
 
   .content-slot-mc .smartcapture-submit-button-wrapper {
-    @apply
-    !w-full
-    !m-0
+    @apply !w-full
+    !m-0;
   }
 }
